@@ -1,4 +1,4 @@
-import { ArrowUpRight, BookOpen, Briefcase, LinkedinLogo, Martini } from "@phosphor-icons/react";
+import { ArrowUpRight, BookOpen, Briefcase, LinkedinLogo, MapTrifold, Martini } from "@phosphor-icons/react";
 
 const projects = [
   {
@@ -24,6 +24,14 @@ const projects = [
     description: "A practical personal operator for organizing the work and life ahead.",
     href: "https://operator.darrynhernandez.com",
     Icon: Briefcase,
+  },
+  {
+    number: "04",
+    title: "Utrecht Family Christmas Market Finder",
+    category: "Family days out",
+    description: "A simple guide to family-friendly Christmas markets in and around Utrecht.",
+    href: "https://utrecht-family-market-finder-2026.darrynhernandez.chatgpt.site",
+    Icon: MapTrifold,
   },
 ];
 
@@ -63,10 +71,9 @@ export default function Dashboard() {
         </header>
 
         <section className="dashboard-intro" aria-labelledby="dashboard-title">
-          <p className="dashboard-kicker">Projects &amp; places</p>
           <div className="dashboard-intro__grid">
-            <h1 id="dashboard-title">The work, <em>in one place.</em></h1>
-            <p>A concise home for the tools, ideas, and worlds I’m building.</p>
+            <h1 id="dashboard-title">Things I’ve <em>been making.</em></h1>
+            <p>Apps, sites, and ideas shaped by family life, good food, and the things I wish already existed.</p>
           </div>
         </section>
 
