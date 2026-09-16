@@ -27,9 +27,9 @@ const projects = [
   },
   {
     number: "04",
-    title: "Utrecht Family Christmas Market Finder",
+    title: "European Family Christmas Market Finder",
     category: "Family days out",
-    description: "A simple guide to family-friendly Christmas markets in and around Utrecht.",
+    description: "A simple guide to family-friendly Christmas markets a short trip from the Netherlands.",
     href: "https://utrecht-family-market-finder-2026.darrynhernandez.chatgpt.site",
     Icon: MapTrifold,
   },
